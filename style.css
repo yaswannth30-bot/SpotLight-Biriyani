@@ -235,6 +235,43 @@ h2 em {
     color: #a99e90;
 }
 
+.logo-section {
+    background: #1c1815;
+    border-bottom: 1px solid #302920;
+}
+
+.logo-section-inner {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.logo-image-wrapper {
+    flex: 0 0 auto;
+}
+
+.big-brand-logo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #c9a45c;
+    box-shadow: 0 10px 40px rgba(201, 164, 92, 0.15);
+}
+
+.logo-content h2 {
+    color: #f8f0e4;
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+.logo-content p:not(.eyebrow) {
+    color: #c5bbae;
+    font-size: 16px;
+    max-width: 500px;
+    line-height: 1.8;
+}
+
 .section {
     padding: 105px 0;
 }
@@ -601,6 +638,16 @@ footer {
     .full-menu>div {
         border-right: 0;
         border-bottom: 1px solid #ddd1c0;
+    }
+
+    .logo-section-inner {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .logo-content p:not(.eyebrow) {
+        margin: 0 auto;
     }
 
     .catering-box {
